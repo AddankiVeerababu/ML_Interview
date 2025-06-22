@@ -13,7 +13,7 @@ Additionally, stacking many layers increases computational cost and memory usage
 
 ## **Question 2: Can you design a learnable positional encoding method using pytorch? (Create dummy dataset)**
 
-# Learnable Positional Encoding in PyTorch
+## Learnable Positional Encoding in PyTorch
 
 This project implements a learnable positional encoding using PyTorch. It includes a dummy dataset of token sequences, applies token embeddings using `nn.Embedding`, and adds learnable positional embeddings to those sequences.
 
