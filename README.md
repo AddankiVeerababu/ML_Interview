@@ -1,5 +1,5 @@
 # ML_Interview
-#Question 1:Suppose that we design a deep architecture to represent a sequence by stacking self-attention layers with positional encoding. What could be issues? (paragraph format)
+**Question 1:Suppose that we design a deep architecture to represent a sequence by stacking self-attention layers with positional encoding. What could be issues? (paragraph format)**
 
 When we build a deep model using many self-attention layers, we add positional encoding to help the model understand the order of the input sequence. However, there are several issues that can arise. One main problem is that as the input passes through multiple layers, the model may gradually lose track of position information, especially if we use fixed encodings like sine and cosine. These encodings do not adapt during training, so their impact may weaken in deeper layers, making it harder for the model to preserve the order of tokens.
 
